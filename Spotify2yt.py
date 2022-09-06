@@ -12,10 +12,6 @@ def get_spotify_playlist():
     total = int(sp.current_user_saved_tracks()["total"] /rlimit)
     songnames = []
 #test
-#testingtets
-#testing 
-#testme
-#testingchanges
 
     test = 333333333test343242344389889349999
     for x in range(total):
