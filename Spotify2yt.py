@@ -13,8 +13,6 @@ def get_spotify_playlist():
     songnames = []
 #test
 #testing
-#testing again
-#test
     test = 333333333test343242344389889349999
     for x in range(total):
 
