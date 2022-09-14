@@ -1,5 +1,6 @@
 # Spotify-to-youtube
-Creates a YouTube playlist from an existing Spotify library
+Creates a YouTube playlist from an existing Spotify library.
+This currently only works from likes.
 
 ----------------------------------- SETUP AUTHENTICATION -------------------------------------------------
 Youtube: 
