@@ -4,7 +4,7 @@ from ytmusicapi import YTMusic
 import Config
 from pprint import pprint
 def get_spotify_playlist():
-
+#testing 1
     scope = 'user-library-read'
     sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id=Config.Client_ID, redirect_uri= Config.Redirect_URI, client_secret= Config.Client_Secret, scope=scope))
     os = 0
@@ -26,7 +26,7 @@ def get_spotify_playlist():
                 songnames.append(str(track['name'] + " " + track['artists'][0]['name']))
             except:
                 print("invalid char")
-
+#testing 2
         os += 50
 #testing cl
     finalids = []
@@ -45,3 +45,4 @@ def get_spotify_playlist():
     f.close()
 
 get_spotify_playlist()
+#testing 3
